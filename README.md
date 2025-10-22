@@ -1,4 +1,4 @@
-# WeatherApp (iOS)
+# 🌤️ WeatherApp (iOS)
 
 A simple and elegant **iOS Weather App** built using **SwiftUI**, **Combine**, and a public **Weather API**.  
 Displays real-time weather data with temperature, condition icons, and location-based updates.
@@ -6,25 +6,25 @@ Displays real-time weather data with temperature, condition icons, and location-
 ---
 
 ## ✨ Features
-- Fetches live weather data via REST API (e.g., OpenWeatherMap)
-- Location-based weather detection
-- Displays temperature, condition (sunny, cloudy, rainy, etc.), and humidity
-- Responsive layout supporting both light and dark mode
-- SwiftUI-based modern interface
-- Uses `async/await` or Combine for asynchronous data loading
-- Error handling for invalid API responses or network issues
+- 🌦️ Fetches live weather data via REST API (e.g., OpenWeatherMap)
+- 📍 Location-based weather detection
+- 🌡️ Displays temperature, weather condition (sunny, cloudy, rainy, etc.), and humidity
+- 🌓 Supports light and dark mode
+- 🧭 Built using SwiftUI for a modern, responsive design
+- ⚡ Uses `async/await` or Combine for asynchronous data loading
+- 🚨 Includes error handling for network or API issues
 
 ---
 
 ## 🧰 Tech Stack
-**Language:** Swift  
-**Framework:** SwiftUI, Combine  
-**Networking:** URLSession / AsyncImage  
-**Architecture:** MVVM (Model-View-ViewModel)  
-**IDE:** Xcode  
-**API Source:** OpenWeatherMap API or similar
-
----
+| Category        | Tools / Frameworks                          |
+|-----------------|---------------------------------------------|
+| **Language**    | Swift                                       |
+| **Framework**   | SwiftUI, Combine                            |
+| **Networking**  | URLSession / AsyncImage                     |
+| **Architecture**| MVVM (Model-View-ViewModel)                 |
+| **IDE**         | Xcode                                       |
+| **API Source**  | [OpenWeatherMap API](https://openweathermap.org/api) |
 
 ## 🗂️ Project Structure
 WeatherApp/
@@ -43,10 +43,3 @@ WeatherApp/
 ├── Assets.xcassets/ # App icons & design assets
 ├── Info.plist # Permissions (Location, API config)
 └── README.md
-
-🧠 What I Learned
-
-- Working with REST APIs in Swift
-- Using Combine / async-await for reactive data handling
-- Implementing MVVM architecture
-- Designing adaptive layouts with SwiftUI
