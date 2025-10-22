@@ -43,3 +43,10 @@ WeatherApp/
 ├── Assets.xcassets/ # App icons & design assets
 ├── Info.plist # Permissions (Location, API config)
 └── README.md
+
+🧠 What I Learned
+
+- Working with REST APIs in Swift
+- Using Combine / async-await for reactive data handling
+- Implementing MVVM architecture
+- Designing adaptive layouts with SwiftUI
